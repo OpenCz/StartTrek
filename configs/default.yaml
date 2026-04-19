@@ -1,0 +1,15 @@
+env:
+  name: LunarLander-v3
+  seed: 0
+  seeds: [0, 1, 2, 3, 4]
+
+algo:
+  lr: 0.001
+  gamma: 0.99
+  batch_size: 64
+  buffer_size: 50000
+  epsilon_start: 1.0
+  epsilon_end: 0.01
+  epsilon_decay: 0.995
+  target_update: 10
+  max_episodes: 2000
